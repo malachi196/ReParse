@@ -1,5 +1,6 @@
 # ReParse
-Made for running attemping to run applications without having admin permisions
+Made for running attemping to run applications without having admin permisions, by \
+trying to verify run access without admin resources!
 
 ## Note!!!!!
 ReParse.bat is the original file
