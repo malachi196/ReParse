@@ -7,9 +7,9 @@ trying to verify run access without admin resources!
 
 
 ## Release Details
-**ReParse.bat** is the **original file**, programmed in batch cmd \
-**Reparse.py** is the **python version** (under maintenence)
-- see (add detailed release section link here) for more information
+- **ReParse.bat** is the **original file**, programmed in batch cmd \
+- **Reparse.py** is the **python version** (under maintenence)
+see (add detailed release section link here) for more information
 
 ## Credits
 Owner/Creator: @malachi196 \
