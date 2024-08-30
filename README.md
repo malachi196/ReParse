@@ -1,5 +1,5 @@
 # ReParse
-Made for running attemping to run applications without having admin permisions, by \
+Made for attempting to run applications without having admin permisions, by \
 trying to verify run access without admin resources!
 
 ## Important Disclaimers
