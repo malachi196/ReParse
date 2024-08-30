@@ -7,4 +7,4 @@ Reparse.py is the python git clone test (under maintenence)
 
 ## credits
 Owner/Creator: @malachi196 \
-Co-Owner/Founder: @mas6y6
+Co-Owner: @mas6y6
