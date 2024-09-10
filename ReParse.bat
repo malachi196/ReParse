@@ -1,7 +1,7 @@
 ::-----ReParse-----::
 
 @echo off
-echo starting REPARSE
+echo REPARSE v1.1.0
 call:rparselogo
 
 echo querying file...
