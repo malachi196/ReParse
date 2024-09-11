@@ -6,6 +6,12 @@ call:rparselogo
 
 echo querying file...
 for /f "delims=" %%i in ('powershell -command "Add-Type -AssemblyName System.Windows.Forms; $file = New-Object System.Windows.Forms.OpenFileDialog; $file.ShowDialog() | Out-Null; $file.FileName; Remove-Variable -Name file"') do set filepath=%%i
+IF "%filepath%"=="" (
+   echo exited REPARSE
+   echo:
+   PAUSE
+   exit
+)
 echo file chosen: %filepath%
 set /p fpath="is this correct? [y,n]> "
 IF "%fpath%"=="y" (
@@ -46,7 +52,6 @@ goto:EOF
 :rparselogo
 (
 echo:
-echo:
 echo               ###  ##############                       
 echo               #######################                   
 echo               ########        #########                 
@@ -68,7 +73,6 @@ echo             #######              #######
 echo               ########################                  
 echo                  ##################                     
 echo                        #####                            
-echo:
 echo:
 )
 goto:EOF
